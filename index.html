@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="custom.js"></script>
+    <title>Document</title>
+    <style>
+        *{
+            font-family: 'Red Hat Display', sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <!-- info section start -->
+        <section class="flex justify-between items-center px-32 py-2 bg-[#F5F5F5]">
+            <div class="welcome">
+                <p class="text-xs text-gray-500">Welcome to worldwide Megamart!</p>
+            </div>
+            <div class="details">
+                <ul class="flex gap-5">
+                    <li>
+                        <a href="" class="flex gap-3 justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-primary">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M15 10.5a3 3 0 11-6 0 3 3 0 016 0z" />
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 10.5c0 7.142-7.5 11.25-7.5 11.25S4.5 17.642 4.5 10.5a7.5 7.5 0 1115 0z" />
+                            </svg>
+                            <p class="text-xs text-gray-500 border-r border-gray-300 pr-4">Deliver to <b>423651</b></p>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="" class="flex gap-3 justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-primary">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 18.75a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h6m-9 0H3.375a1.125 1.125 0 01-1.125-1.125V14.25m17.25 4.5a1.5 1.5 0 01-3 0m3 0a1.5 1.5 0 00-3 0m3 0h1.125c.621 0 1.129-.504 1.09-1.124a17.902 17.902 0 00-3.213-9.193 2.056 2.056 0 00-1.58-.86H14.25M16.5 18.75h-2.25m0-11.177v-.958c0-.568-.422-1.048-.987-1.106a48.554 48.554 0 00-10.026 0 1.106 1.106 0 00-.987 1.106v7.635m12-6.677v6.677m0 4.5v-4.5m0 0h-12" />
+                              </svg>                          
+                            <p class="text-xs text-gray-500 border-r border-gray-300 pr-4">Track your order</p>
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="" class="flex gap-3 justify-center items-center">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-4 h-4 text-primary">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="M16.5 6v.75m0 3v.75m0 3v.75m0 3V18m-9-5.25h5.25M7.5 15h3M3.375 5.25c-.621 0-1.125.504-1.125 1.125v3.026a2.999 2.999 0 010 5.198v3.026c0 .621.504 1.125 1.125 1.125h17.25c.621 0 1.125-.504 1.125-1.125v-3.026a2.999 2.999 0 010-5.198V6.375c0-.621-.504-1.125-1.125-1.125H3.375z" />
+                            </svg>                        
+                            <p class="text-xs text-gray-500 pr-4">All Offers</p>
+                        </a>
+                        
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- info section end  -->
+        <!-- header menu start  -->
+        <section class="flex justify-between items-center px-32 py-4 border-b">
+            <div class="menu-logo flex justify-center items-center gap-2">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-11 h-11 text-primary p-2 bg-background hover:cursor-pointer rounded-md">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <h1 class="text-2xl text-primary font-bold">Mega Mart</h1>
+            </div>
+            <div class="search-bar rounded-md flex justify-center items-center gap-2 p-2 w-2/4 bg-background">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-primary cursor-pointer">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
+                </svg>              
+                <input type="search" name="search" id="search" placeholder="Search essentials, groceries and more..." class="w-full bg-transparent">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 text-primary cursor-pointer">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 9h16.5m-16.5 6.75h16.5" />
+                </svg>                  
+            </div>
+            <div class="login flex justify-center items-center gap-2">
+                <a href="" class="flex justify-center items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-primary">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 11-7.5 0 3.75 3.75 0 017.5 0zM4.501 20.118a7.5 7.5 0 0114.998 0A17.933 17.933 0 0112 21.75c-2.676 0-5.216-.584-7.499-1.632z" />
+                    </svg>
+                    <p class="text-sm hover:text-primary text-gray-500 border-r border-gray-300 pr-4 font-semibold">Sign-in/Sign-Up</p>
+                </a>
+                <a href="" class="flex justify-center items-center gap-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5 text-primary">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 10.5V6a3.75 3.75 0 10-7.5 0v4.5m11.356-1.993l1.263 12c.07.665-.45 1.243-1.119 1.243H4.25a1.125 1.125 0 01-1.12-1.243l1.264-12A1.125 1.125 0 015.513 7.5h12.974c.576 0 1.059.435 1.119 1.007zM8.625 10.5a.375.375 0 11-.75 0 .375.375 0 01.75 0zm7.5 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
+                    </svg>                  
+                    <p class="text-sm hover:text-primary text-gray-500 pr-4 font-semibold">Cart</p>
+                </a>              
+            </div>
+        </section>
+        <!-- header menu end  -->
+
+    </header>
+    <main>
+        <!-- banner start  -->
+        <section class="px-32 py-4">
+            <div class="banner bg-[url('img/bannerbg.png')] px-28 py-7 w-full rounded-2xl flex justify-around items-center gap-10 bg-cover mb-10">
+                <div class="text-area">
+                    <h2 class="text-3xl font-bold text-white">Best Deal Online on smart watches</h2>
+                    <h1 class="text-6xl font-bold text-white">SMART WEARABLE.</h1>
+                    <h2 class="text-3xl font-bold text-white">UP to 80% OFF</h2>
+                </div>
+                <div class="image-area">
+                    <img src="img/image-2.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- banner end  -->
+        <!-- smartphone gallery start  -->
+        <section class="px-32 py-10 mb-28 flex flex-col justify-around items-center gap-10">
+            <div class="title flex justify-between items-center border-b pb-4 w-full">
+                <h1 class="text-xl font-bold text-heading">Grab the best deal on <span class="text-primary">Smartphones</span></h1>
+                <a href="">
+                    <p>View More <span class="text-primary">></span></p>
+                </a>
+            </div>
+            <div class="gallery grid grid-cols-5 gap-10 justify-around">
+                <div class="product-box-1 flex flex-col justify-center items-center border rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                    <div class="image bg-background2 w-full h-full px-12 py-5 flex justify-center items-center">
+                        <img src="img/image-3.png" alt="" class="m-auto w-20">
+                    </div>
+                    <div class="text flex flex-col justify-center items-sta pl-2 py-3 tr p-5 border-b">
+                        <h1 class="text-sm">Galaxy S22 Ultra</h1>
+                        <h1 class="font-bold">₹32999 <span class="text-heading line-through font-normal">₹74999</span></h1>
+                    </div>
+                    <div class="save">
+                        <p class="text-green-500">Save - ₹32999</p>
+                    </div>
+                </div>
+                <div class="product-box-2 flex flex-col justify-center items-center border rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                    <div class="image bg-background2 w-full h-full px-12 py-5 flex justify-center items-center">
+                        <img src="img/image-3-1.png" alt="" class="m-auto">
+                    </div>
+                    <div class="text flex flex-col justify-center items-start pl-2 py-3 pr-5 border-b">
+                        <h1 class="text-sm">Galaxy M13 (4GB|64 GB)</h1>
+                        <h1 class="font-bold">₹10499 <span class="text-heading line-through font-normal">₹14999</span></h1>
+                    </div>
+                    <div class="save">
+                        <p class="text-green-500">Save - ₹4500</p>
+                    </div>
+                </div>
+                
+                <div class="product-box-3 flex flex-col justify-center items-center border rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                    <div class="image bg-background2 w-full h-full px-12 py-5 flex justify-center items-center">
+                        <img src="img/image-3-2.png" alt="" class="m-auto">
+                    </div>
+                    <div class="text flex flex-col justify-center items-start pl-2 py-3 pr-5 border-b">
+                        <h1 class="text-sm">Galaxy M33 (4GB|64GB)</h1>
+                        <h1 class="font-bold">₹16999 <span class="text-heading line-through font-normal">₹24999</span></h1>
+                    </div>
+                    <div class="save">
+                        <p class="text-green-500">Save - ₹8000</p>
+                    </div>
+                </div>
+                <div class="product-box-4 flex flex-col justify-center items-center border rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                    <div class="image bg-background2 w-full h-full px-12 py-5 flex justify-center items-center">
+                        <img src="img/image-3-3.png" alt="" class="m-auto">
+                    </div>
+                    <div class="text flex flex-col justify-center items-start pl-2 py-3 pr-5 border-b">
+                        <h1 class="text-sm">Galaxy M53 (4GB|64GB)</h1>
+                        <h1 class="font-bold">₹31999 <span class="text-heading line-through font-normal">₹40999</span></h1>
+                    </div>
+                    <div class="save">
+                        <p class="text-green-500">Save - ₹9000</p>
+                    </div>
+                </div>
+                <div class="product-box-5 flex flex-col justify-center items-center border rounded-xl transition ease-in-out hover:-translate-y-1 hover:scale-110 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                    <div class="image bg-background2 w-full h-full px-12 py-5 flex justify-center items-center">
+                        <img src="img/image-3-4.png" alt="" class="m-auto">
+                    </div>
+                    <div class="text flex flex-col justify-center items-start pl-2 py-3 pr-5 border-b">
+                        <h1 class="text-sm">Galaxy S22 Ultra</h1>
+                        <h1 class="font-bold">₹67999 <span class="text-heading line-through font-normal">₹85999</span></h1>
+                    </div>
+                    <div class="save">
+                        <p class="text-green-500">Save - ₹18000</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- smartphone gallery end  -->
+        <!-- category search start  -->
+        <section class="px-32 py-10 mb-28 flex flex-col justify-around items-center gap-10">
+            <div class="title flex justify-between items-center border-b pb-4 w-full">
+                <h1 class="text-xl font-bold text-heading">Shop From <span class="text-primary">Top Categories</span></h1>
+                <a href="">
+                    <p>View More <span class="text-primary">></span></p>
+                </a>
+            </div>
+            <div class="container">
+                <div class="category grid grid-cols-7 gap-10 justify-around">
+                    <div class="items justify-center items-center flex flex-col">
+                        <div class="imb-box w-32 h-32 bg-background2 rounded-full p-3 flex flex-col justify-center items-center border transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                            <img src="img/image-3.png" alt="" class="flex justify-center items-center m-auto w-10">
+                        </div>
+                        <div class="text justify-center items-center flex flex-col">
+                            <h1 class="text-center">Mobile</h1>
+                        </div>
+                    </div>
+                    <div class="items justify-center items-center flex flex-col">
+                        <div class="imb-box w-32 h-32 bg-background2 rounded-full p-3 flex flex-col justify-center items-center border transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                            <img src="img/image-3.png" alt="" class="flex justify-center items-center m-auto w-10">
+                        </div>
+                        <div class="text justify-center items-center flex flex-col">
+                            <h1 class="text-center">Cosmetics</h1>
+                        </div>
+                    </div>
+                    <div class="items justify-center items-center flex flex-col">
+                        <div class="imb-box w-32 h-32 bg-background2 rounded-full p-0 flex flex-col justify-center items-center border transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                            <img src="img/image 4.png" alt="" class="flex justify-center items-center m-auto">
+                        </div>
+                        <div class="text justify-center items-center flex flex-col">
+                            <h1 class="text-center">Furniture</h1>
+                        </div>
+                    </div>
+                    <div class="items justify-center items-center flex flex-col">
+                        <div class="imb-box w-32 h-32 bg-background2 rounded-full p-3 flex flex-col justify-center items-center border transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                            <img src="img/image-3.png" alt="" class="flex justify-center items-center m-auto w-10">
+                        </div>
+                        <div class="text justify-center items-center flex flex-col">
+                            <h1 class="text-center">Mobile</h1>
+                        </div>
+                    </div>
+                    <div class="items justify-center items-center flex flex-col">
+                        <div class="imb-box w-32 h-32 bg-background2 rounded-full p-3 flex flex-col justify-center items-center border transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                            <img src="img/image-3.png" alt="" class="flex justify-center items-center m-auto w-10">
+                        </div>
+                        <div class="text justify-center items-center flex flex-col">
+                            <h1 class="text-center">Mobile</h1>
+                        </div>
+                    </div>
+                    <div class="items justify-center items-center flex flex-col">
+                        <div class="imb-box w-32 h-32 bg-background2 rounded-full p-3 flex flex-col justify-center items-center border transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                            <img src="img/image-3.png" alt="" class="flex justify-center items-center m-auto w-10">
+                        </div>
+                        <div class="text justify-center items-center flex flex-col">
+                            <h1 class="text-center">Mobile</h1>
+                        </div>
+                    </div>
+                    <div class="items justify-center items-center flex flex-col">
+                        <div class="imb-box w-32 h-32 bg-background2 rounded-full p-3 flex flex-col justify-center items-center border transition ease-in-out hover:-translate-y-0.5 hover:scale-102 hover:shadow-lg hover:cursor-pointer duration-300 hover:border-primary">
+                            <img src="img/image-3.png" alt="" class="flex justify-center items-center m-auto w-10">
+                        </div>
+                        <div class="text justify-center items-center flex flex-col">
+                            <h1 class="text-center">Mobile</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- caregory search end  -->
+    </main>
+</body>
+</html>
